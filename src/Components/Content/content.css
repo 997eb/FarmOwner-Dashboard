@@ -1,0 +1,253 @@
+
+.checked{
+background: rgba(0,193,90,0.3);
+color: rgb(2, 164, 78);
+padding-left: 10px !important;
+padding-right:  10px !important;
+border-radius: 20px;
+
+
+}
+.unchecked{
+    background:rgba(169,169,169,0.4);
+    color: rgb(140, 139, 139);
+        padding-left: 10px !important;
+        padding-right:  10px !important;
+        border-radius: 20px;
+
+    }
+
+    .infected{
+        background:rgba(255,0,0,0.3);
+        color: rgb(218, 43, 43);
+            padding-left: 10px !important;
+            padding-right:  10px !important;
+            border-radius: 20px;
+
+    }
+.wrapper {
+   /* margin-top: 1%;*/
+    display: grid;
+    grid-template-columns: repeat(6, 1.5fr);
+    grid-auto-rows: minmax(40px, auto);
+    column-gap: 20px;
+    z-index: auto;
+
+}
+.chartName{
+    display: flex;
+    justify-content: space-between;
+
+}
+.staticName{
+    /*margin-top: 2%;*/
+    color: #575757;
+    margin-bottom: 6px;
+}
+
+.expand {
+   /* width: 15%;*/
+    margin-top: 7px;
+    margin-bottom: -5px;
+    font-size: small;
+    color: grey;
+    display: none;
+   
+}
+
+.row1coloum1{
+    grid-column-start: 1;
+    height: 150px;
+    border-radius: 10px;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background:rgb(227, 226, 226);
+}
+
+.row1coloum2{
+    border-radius: 10px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-image:  linear-gradient(106deg, #499754, #548c50)
+
+}
+.row1coloum3{
+    border-radius: 10px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background:#eabb17
+} 
+.row1coloum4{
+    border-radius: 10px;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;    
+    height: 150px;
+    border-radius: 10px;
+    background: #50A4C5;
+
+}
+
+.row2coloum1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  
+
+
+}
+
+.row2coloum2{
+
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+
+.row3coloum1 {
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.row3coloum2 {
+     grid-column-start: 5;
+     grid-column-end:7;
+     grid-row-start: 3;
+     grid-row-end: 3;
+
+ }
+
+.row3coloum3 {
+    grid-column-start: 4;
+    grid-column-end:5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+
+
+.sideBarIcon{
+    width: 22px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+@media (max-width: 1366px) {
+
+   
+.wrapper {
+      grid-auto-rows: minmax(20px, auto);
+      row-gap: 1%;
+    
+    }
+.row1coloum1{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.row1coloum2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.row1coloum3{
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+} 
+.row1coloum4{
+
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.row2coloum1{
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.row2coloum2{
+
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+
+.row3coloum1 {
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.row3coloum2 {
+     grid-column-start: 1;
+     grid-column-end:4;
+     grid-row-start: 3;
+     grid-row-end: 3;
+
+ }
+}
+
+
+@media (max-width: 768px) {
+    .wrapper {
+         margin-top: 14px;
+      
+     }
+.checked{
+    margin-top:0px
+
+    }
+.unchecked{
+    margin-top:0px
+        }
+    
+.infected{
+     margin-top:0px
+        }
+    }
+
+    @media (max-width: 400px) {
+
+    .row1coloum2 {
+        
+        margin-top:14px;
+     } 
+     .row1coloum3 {
+        
+        margin-top:14px;
+     } 
+     .row1coloum4 {
+        
+        margin-top:14px;
+     } 
+
+    }
+   

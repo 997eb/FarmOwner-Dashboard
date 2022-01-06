@@ -1,0 +1,50 @@
+
+.Data1{
+  
+    background: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 66px -119px rgba(227,227,227,1);
+    position: relative;
+    height: 34vh;
+
+}
+.palmStatusChart{
+
+    margin-left: 45px;
+    padding-top: 10px;
+    height: 34vh;
+    width: 18vw;
+
+
+}
+
+@media (max-width: 1366px) {
+    .palmStatusChart{
+
+    margin-left: 35px;
+    padding-top: 10px;
+    height: 34vh;
+    width: 28vw;
+}
+
+}
+
+@media (max-width: 769px) {
+    .palmStatusChart{
+
+        margin-left: 5px;
+        padding-top: 10px;
+        height: 34vh;
+        width: 28vw;
+    }
+ 
+
+}
+@media (max-width: 400px) {
+    .palmStatusChart{
+        margin-left: 5px;
+        padding-top: 0px;
+        height: 34vh;
+        width: 38vw;
+    }
+}

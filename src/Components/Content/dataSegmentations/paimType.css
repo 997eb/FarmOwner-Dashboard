@@ -1,0 +1,64 @@
+
+.Data2{
+    /*
+    background: white;
+    border-radius: 2px;
+    box-shadow: 10px 10px 66px -119px rgba(227,227,227,1);
+    position: relative;*/
+
+   /* height: 309px;
+    padding-bottom: 1%;*/
+
+
+    
+    background: white;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 66px -119px rgba(227,227,227,1);
+    position: relative;
+    height: 34vh;
+
+
+
+}
+
+.palmTyprChart{
+
+    margin-left: 40px;
+padding-top: 10px;
+   height: 35vh;
+    width: 20vw;
+
+  /* height: 34vh;
+    width: 18vw;*/
+}
+
+
+@media (max-width: 1300px) {
+
+ .palmTyprChart{
+    
+        margin-left: 35px;
+        padding-top: 10px;
+        height: 34vh;
+        width: 28vw;
+    }
+}
+
+@media (max-width: 769px) {
+    .palmTyprChart{
+    margin-left: 5px;
+    padding-top: 10px;
+    height: 34vh;
+    width: 28vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .palmTyprChart{
+    margin-left: 5px;
+    padding-top: 3px;
+    height: 34vh;
+    width: 38vw;
+    }
+}

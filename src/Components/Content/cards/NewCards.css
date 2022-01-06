@@ -1,0 +1,43 @@
+/*
+width: 40px;
+margin: 10px;
+*/
+
+.cardIcon{
+    width: 33px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.cardNumber{
+    margin-left: 20px;
+font-size: 2.5rem;
+font-weight: bold;
+color: rgb(96, 94, 94);
+}
+.cardName{
+    margin-left: 20px;
+color: grey;
+}
+
+
+
+.cardNumberW{
+    margin-left: 20px;
+font-size: 2.5rem;
+font-weight: bold;
+color: #fff;
+}
+.cardNameW{
+    margin-left: 20px;
+color:  #fff;
+}
+
+
+@media (max-width: 400px) {
+    .cardIcon{
+        width: 25px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}

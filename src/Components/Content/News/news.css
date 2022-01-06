@@ -1,0 +1,49 @@
+.news{
+
+  /*  margin-top: 10px;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 100% auto;
+   /* grid-template-columns: 76% auto;*/
+}
+
+.newsImg{
+    margin-top:1%;
+    margin-left: -22px;
+    width: 130px;
+    height: auto;
+
+}
+
+.welcome{
+
+    font-size: 2em;
+    margin-left: 5%;
+   color: grey;
+   margin-bottom: 10px;
+
+
+}
+
+.newParagraph{
+    color: light;
+
+margin-right: 70px;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-left: 5%;
+   
+
+}
+
+
+@media (max-width: 400px) {
+    .welcome {
+        font-size: 1.7em;}
+        .newParagraph {
+        
+            font-size: 1.15em;
+        }
+}

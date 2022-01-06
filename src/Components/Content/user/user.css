@@ -1,0 +1,159 @@
+
+
+
+.containerLogin{
+    background: url("https://cdn.pixabay.com/photo/2016/02/19/11/51/palm-trees-1210002_1280.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.background{
+    background: #00c15a !important;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.Signinform {
+    width: 350px;
+    height: 450px;
+}
+
+.ResetPasswordFormOne {
+    width: 350px;
+    height: 550px;
+}
+.ForgotPasswordFormOne {
+    width: 350px;
+    height: 400px;
+}
+
+
+form .form__header {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #367a3e;
+    border-radius: 5px 5px 0 0;
+}
+form .form__header .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: auto;
+}
+form .form__header .triangle {
+    position: absolute;
+    left: 47.5%;
+    bottom: -9%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #367a3e;
+}
+form .form__body {
+    height: calc(100% - 80px);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+form .form__body .title {
+    padding-top: 30px;
+    margin: 0;
+    font-weight: 600;
+}
+
+form .form__body .signup {
+    padding-top: 30px;
+    margin: 0;
+    font-weight: 100;
+    font-size: small;
+    color: #9698a1;
+}
+form .form__body  .signB{
+   
+    color:#367a3e;
+}
+
+
+form .form__body .title span {
+    color: #00c15a;
+    text-transform: uppercase;
+}
+form .form__body .description {
+ font-size: 12px;
+
+}
+form .form__body input {
+    width: 250px;
+    padding: 8px;
+    margin: 7px;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+    outline: none;
+}
+.swal2-container {
+    z-index: 100000 !important;
+}
+form .form__body input:focus {
+    border-color:  #a0a0a0;
+}
+form .form__body input::placeholder {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    opacity: 0.8;
+}
+form .form__body input:focus::placeholder {
+    opacity: 0.3;
+}
+form .form__body button {
+    width: 250px;
+    padding: 14px;
+    margin-top: 50px;
+    background-color: #eabb17;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form .form__body .disclaimer {
+    /*padding: 10px;
+    font-size: 8.5px;
+    opacity: 0.5;*/
+    display: none;
+}
+form .form__body .disclaimer span {
+    border-bottom: 1px solid #cccdd1;
+}
+.login, .social {
+    text-align: center;
+}
+.login {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #9698a1;
+}
+.login a {
+    color: #ff2f63;
+    text-decoration: none;
+}
+.social i {
+    padding: 3px;
+    color: #9698a1;
+}
